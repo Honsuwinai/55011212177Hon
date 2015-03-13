@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD43F95D1AB2B84B00C2E0CE"
-               BuildableName = "Midterm.app"
-               BlueprintName = "Midterm"
-               ReferencedContainer = "container:Midterm.xcodeproj">
+               BlueprintIdentifier = "FD43F9BD1AB2CBF500C2E0CE"
+               BuildableName = "midterm.app"
+               BlueprintName = "midterm"
+               ReferencedContainer = "container:Exam_55011212177.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD43F9721AB2B84B00C2E0CE"
-               BuildableName = "MidtermTests.xctest"
-               BlueprintName = "MidtermTests"
-               ReferencedContainer = "container:Midterm.xcodeproj">
+               BlueprintIdentifier = "FD43F9D21AB2CBF500C2E0CE"
+               BuildableName = "midtermTests.xctest"
+               BlueprintName = "midtermTests"
+               ReferencedContainer = "container:Exam_55011212177.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD43F9721AB2B84B00C2E0CE"
-               BuildableName = "MidtermTests.xctest"
-               BlueprintName = "MidtermTests"
-               ReferencedContainer = "container:Midterm.xcodeproj">
+               BlueprintIdentifier = "FD43F9D21AB2CBF500C2E0CE"
+               BuildableName = "midtermTests.xctest"
+               BlueprintName = "midtermTests"
+               ReferencedContainer = "container:Exam_55011212177.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD43F95D1AB2B84B00C2E0CE"
-            BuildableName = "Midterm.app"
-            BlueprintName = "Midterm"
-            ReferencedContainer = "container:Midterm.xcodeproj">
+            BlueprintIdentifier = "FD43F9BD1AB2CBF500C2E0CE"
+            BuildableName = "midterm.app"
+            BlueprintName = "midterm"
+            ReferencedContainer = "container:Exam_55011212177.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD43F95D1AB2B84B00C2E0CE"
-            BuildableName = "Midterm.app"
-            BlueprintName = "Midterm"
-            ReferencedContainer = "container:Midterm.xcodeproj">
+            BlueprintIdentifier = "FD43F9BD1AB2CBF500C2E0CE"
+            BuildableName = "midterm.app"
+            BlueprintName = "midterm"
+            ReferencedContainer = "container:Exam_55011212177.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FD43F95D1AB2B84B00C2E0CE"
-            BuildableName = "Midterm.app"
-            BlueprintName = "Midterm"
-            ReferencedContainer = "container:Midterm.xcodeproj">
+            BlueprintIdentifier = "FD43F9BD1AB2CBF500C2E0CE"
+            BuildableName = "midterm.app"
+            BlueprintName = "midterm"
+            ReferencedContainer = "container:Exam_55011212177.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
