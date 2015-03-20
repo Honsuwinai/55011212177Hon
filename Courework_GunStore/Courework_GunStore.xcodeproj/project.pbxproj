@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD5104BF1ABC1321006E7F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5104BE1ABC1321006E7F01 /* AppDelegate.swift */; };
+		FD5104C21ABC1321006E7F01 /* Courework_GunStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD5104C01ABC1321006E7F01 /* Courework_GunStore.xcdatamodeld */; };
+		FD5104C41ABC1321006E7F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5104C31ABC1321006E7F01 /* ViewController.swift */; };
+		FD5104C71ABC1321006E7F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5104C51ABC1321006E7F01 /* Main.storyboard */; };
+		FD5104C91ABC1321006E7F01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5104C81ABC1321006E7F01 /* Images.xcassets */; };
+		FD5104CC1ABC1321006E7F01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5104CA1ABC1321006E7F01 /* LaunchScreen.xib */; };
+		FD5104D81ABC1321006E7F01 /* Courework_GunStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5104D71ABC1321006E7F01 /* Courework_GunStoreTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5104D21ABC1321006E7F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5104B11ABC1321006E7F01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5104B81ABC1321006E7F01;
+			remoteInfo = Courework_GunStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD5104B91ABC1321006E7F01 /* Courework_GunStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Courework_GunStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5104BD1ABC1321006E7F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5104BE1ABC1321006E7F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD5104C11ABC1321006E7F01 /* Courework_GunStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Courework_GunStore.xcdatamodel; sourceTree = "<group>"; };
+		FD5104C31ABC1321006E7F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD5104C61ABC1321006E7F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD5104C81ABC1321006E7F01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD5104CB1ABC1321006E7F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD5104D11ABC1321006E7F01 /* Courework_GunStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Courework_GunStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5104D61ABC1321006E7F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5104D71ABC1321006E7F01 /* Courework_GunStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courework_GunStoreTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD5104B61ABC1321006E7F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5104CE1ABC1321006E7F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD5104B01ABC1321006E7F01 = {
+			isa = PBXGroup;
+			children = (
+				FD5104BB1ABC1321006E7F01 /* Courework_GunStore */,
+				FD5104D41ABC1321006E7F01 /* Courework_GunStoreTests */,
+				FD5104BA1ABC1321006E7F01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD5104BA1ABC1321006E7F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD5104B91ABC1321006E7F01 /* Courework_GunStore.app */,
+				FD5104D11ABC1321006E7F01 /* Courework_GunStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5104BB1ABC1321006E7F01 /* Courework_GunStore */ = {
+			isa = PBXGroup;
+			children = (
+				FD5104BE1ABC1321006E7F01 /* AppDelegate.swift */,
+				FD5104C31ABC1321006E7F01 /* ViewController.swift */,
+				FD5104C51ABC1321006E7F01 /* Main.storyboard */,
+				FD5104C81ABC1321006E7F01 /* Images.xcassets */,
+				FD5104CA1ABC1321006E7F01 /* LaunchScreen.xib */,
+				FD5104C01ABC1321006E7F01 /* Courework_GunStore.xcdatamodeld */,
+				FD5104BC1ABC1321006E7F01 /* Supporting Files */,
+			);
+			path = Courework_GunStore;
+			sourceTree = "<group>";
+		};
+		FD5104BC1ABC1321006E7F01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5104BD1ABC1321006E7F01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD5104D41ABC1321006E7F01 /* Courework_GunStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5104D71ABC1321006E7F01 /* Courework_GunStoreTests.swift */,
+				FD5104D51ABC1321006E7F01 /* Supporting Files */,
+			);
+			path = Courework_GunStoreTests;
+			sourceTree = "<group>";
+		};
+		FD5104D51ABC1321006E7F01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5104D61ABC1321006E7F01 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD5104B81ABC1321006E7F01 /* Courework_GunStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5104DB1ABC1321006E7F01 /* Build configuration list for PBXNativeTarget "Courework_GunStore" */;
+			buildPhases = (
+				FD5104B51ABC1321006E7F01 /* Sources */,
+				FD5104B61ABC1321006E7F01 /* Frameworks */,
+				FD5104B71ABC1321006E7F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Courework_GunStore;
+			productName = Courework_GunStore;
+			productReference = FD5104B91ABC1321006E7F01 /* Courework_GunStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD5104D01ABC1321006E7F01 /* Courework_GunStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5104DE1ABC1321006E7F01 /* Build configuration list for PBXNativeTarget "Courework_GunStoreTests" */;
+			buildPhases = (
+				FD5104CD1ABC1321006E7F01 /* Sources */,
+				FD5104CE1ABC1321006E7F01 /* Frameworks */,
+				FD5104CF1ABC1321006E7F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5104D31ABC1321006E7F01 /* PBXTargetDependency */,
+			);
+			name = Courework_GunStoreTests;
+			productName = Courework_GunStoreTests;
+			productReference = FD5104D11ABC1321006E7F01 /* Courework_GunStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD5104B11ABC1321006E7F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FD5104B81ABC1321006E7F01 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FD5104D01ABC1321006E7F01 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FD5104B81ABC1321006E7F01;
+					};
+				};
+			};
+			buildConfigurationList = FD5104B41ABC1321006E7F01 /* Build configuration list for PBXProject "Courework_GunStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD5104B01ABC1321006E7F01;
+			productRefGroup = FD5104BA1ABC1321006E7F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD5104B81ABC1321006E7F01 /* Courework_GunStore */,
+				FD5104D01ABC1321006E7F01 /* Courework_GunStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD5104B71ABC1321006E7F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5104C71ABC1321006E7F01 /* Main.storyboard in Resources */,
+				FD5104CC1ABC1321006E7F01 /* LaunchScreen.xib in Resources */,
+				FD5104C91ABC1321006E7F01 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5104CF1ABC1321006E7F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD5104B51ABC1321006E7F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5104C41ABC1321006E7F01 /* ViewController.swift in Sources */,
+				FD5104C21ABC1321006E7F01 /* Courework_GunStore.xcdatamodeld in Sources */,
+				FD5104BF1ABC1321006E7F01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5104CD1ABC1321006E7F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5104D81ABC1321006E7F01 /* Courework_GunStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD5104D31ABC1321006E7F01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5104B81ABC1321006E7F01 /* Courework_GunStore */;
+			targetProxy = FD5104D21ABC1321006E7F01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD5104C51ABC1321006E7F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5104C61ABC1321006E7F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD5104CA1ABC1321006E7F01 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5104CB1ABC1321006E7F01 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD5104D91ABC1321006E7F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD5104DA1ABC1321006E7F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD5104DC1ABC1321006E7F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Courework_GunStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD5104DD1ABC1321006E7F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Courework_GunStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD5104DF1ABC1321006E7F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Courework_GunStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Courework_GunStore.app/Courework_GunStore";
+			};
+			name = Debug;
+		};
+		FD5104E01ABC1321006E7F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Courework_GunStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Courework_GunStore.app/Courework_GunStore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD5104B41ABC1321006E7F01 /* Build configuration list for PBXProject "Courework_GunStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5104D91ABC1321006E7F01 /* Debug */,
+				FD5104DA1ABC1321006E7F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5104DB1ABC1321006E7F01 /* Build configuration list for PBXNativeTarget "Courework_GunStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5104DC1ABC1321006E7F01 /* Debug */,
+				FD5104DD1ABC1321006E7F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD5104DE1ABC1321006E7F01 /* Build configuration list for PBXNativeTarget "Courework_GunStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5104DF1ABC1321006E7F01 /* Debug */,
+				FD5104E01ABC1321006E7F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD5104C01ABC1321006E7F01 /* Courework_GunStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD5104C11ABC1321006E7F01 /* Courework_GunStore.xcdatamodel */,
+			);
+			currentVersion = FD5104C11ABC1321006E7F01 /* Courework_GunStore.xcdatamodel */;
+			path = Courework_GunStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD5104B11ABC1321006E7F01 /* Project object */;
+}
